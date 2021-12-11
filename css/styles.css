@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+p {
+    margin-block-start: 0;
+    text-indent: 1rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    width: 40px;
+    margin: 1.5rem 0 1rem 0;
+}
+
+#root {
+    display: flex;
+    height: 100%;
+}
+
+#main-page {
+    flex-grow: 1;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    border-right: 1px solid lightgray;
+}
+
+.sidebar > a {
+    margin: 0.5rem 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 1rem;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials-card {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+
+    text-decoration: none;
+    color: unset;
+}
+
+.socials-card:hover {
+    background-color: lightgray;
+}
+
+.socials-card > i {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
