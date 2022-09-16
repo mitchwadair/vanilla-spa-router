@@ -27,18 +27,6 @@ hr {
     flex-grow: 1;
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-
-    border-right: 1px solid lightgray;
-}
-
-.sidebar > a {
-    margin: 0.5rem 0;
-}
-
 .page-container {
     display: flex;
     flex-direction: column;
