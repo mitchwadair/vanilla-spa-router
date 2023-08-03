@@ -1,6 +1,7 @@
 # vanilla-spa-router
 
-A vanilla js solution to routing for a single-page application
+A vanilla js solution to routing for a single-page application.
+Watch the [corresponding YouTube video](https://youtu.be/ZleShIpv5zQ).
 
 ## Try it out
 
